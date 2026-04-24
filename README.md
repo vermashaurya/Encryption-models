@@ -1,20 +1,19 @@
-# 🔐 Cryptography Models
+# Cryptography Models
 
 A comprehensive, product-ready repository containing various classical and modern encryption models implemented in Python, complete with a beautiful interactive Web UI for demonstration.
 
-![UI Preview](https://img.shields.io/badge/UI-Interactive-brightgreen)
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
-![License](https://img.shields.io/badge/License-MIT-yellow)
 
-## 🌟 Interactive Web UI
+## Interactive Web UI
 
-Experience these ciphers visually! We've built a sleek, interactive web playground where you can encrypt and decrypt messages using classical ciphers directly in your browser. 
+Experience these ciphers visually! I've built a sleek, interactive web playground where you can encrypt and decrypt messages using classical ciphers directly in your browser. 
 
-**[🔗 Try the Web UI on GitHub Pages](#)** *(Replace this with your deployed GitHub pages link!)*
+**Live at** - https://vermashaurya.github.io/Encryption-models <br><br>
+[![UI Preview](https://img.shields.io/badge/UI-Interactive-brightgreen)](https://vermashaurya.github.io/Encryption-models/)
 
 ---
 
-## 🐍 Python Implementations
+## Python Implementations
 
 All python scripts have been refactored for readability and ease of use. Each script contains both **Encryption** and **Decryption** functionality.
 
@@ -36,8 +35,9 @@ python caesar_cipher.py
 ```
 *(Replace `caesar_cipher.py` with your desired cipher script).*
 
-## 🤝 Contribution
+## Contribution
 Feel free to fork this project, submit pull requests, or open an issue if you have suggestions. 
 
-## 📝 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. <br><br>
+[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
