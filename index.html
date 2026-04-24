@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptography Models Playground</title>
+    <meta name="description" content="Explore and understand various classical encryption models including Caesar, Vigenère, Playfair, and Rail Fence ciphers.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-elements">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>Crypto<span>Graphy</span></h1>
+            <p>Interactive Exploration of Classical Encryption Models</p>
+        </header>
+
+        <nav class="cipher-nav">
+            <button class="nav-btn active" data-target="caesar">Caesar</button>
+            <button class="nav-btn" data-target="vigenere">Vigenère</button>
+            <button class="nav-btn" data-target="playfair">Playfair</button>
+            <button class="nav-btn" data-target="railfence">Rail Fence</button>
+        </nav>
+
+        <main>
+            <!-- Caesar Cipher Section -->
+            <section id="caesar" class="cipher-section active">
+                <div class="info-card">
+                    <h2>Caesar Cipher</h2>
+                    <p>One of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet.</p>
+                </div>
+                <div class="interactive-card">
+                    <h3>Try it out</h3>
+                    <div class="input-group">
+                        <label for="caesar-text">Text</label>
+                        <textarea id="caesar-text" placeholder="Enter text to encrypt/decrypt..."></textarea>
+                    </div>
+                    <div class="input-group">
+                        <label for="caesar-shift">Shift</label>
+                        <input type="number" id="caesar-shift" value="3" min="0" max="25">
+                    </div>
+                    <div class="button-group">
+                        <button class="action-btn" onclick="processCaesar(false)">Encrypt</button>
+                        <button class="action-btn outline" onclick="processCaesar(true)">Decrypt</button>
+                    </div>
+                    <div class="output-group">
+                        <label>Result</label>
+                        <div id="caesar-output" class="output-box"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Vigenère Cipher Section -->
+            <section id="vigenere" class="cipher-section">
+                <div class="info-card">
+                    <h2>Vigenère Cipher</h2>
+                    <p>A method of encrypting alphabetic text by using a series of interwoven Caesar ciphers, based on the letters of a keyword. It is a form of polyalphabetic substitution.</p>
+                </div>
+                <div class="interactive-card">
+                    <h3>Try it out</h3>
+                    <div class="input-group">
+                        <label for="vigenere-text">Text</label>
+                        <textarea id="vigenere-text" placeholder="Enter text..."></textarea>
+                    </div>
+                    <div class="input-group">
+                        <label for="vigenere-key">Keyword</label>
+                        <input type="text" id="vigenere-key" placeholder="e.g. KEY">
+                    </div>
+                    <div class="button-group">
+                        <button class="action-btn" onclick="processVigenere(false)">Encrypt</button>
+                        <button class="action-btn outline" onclick="processVigenere(true)">Decrypt</button>
+                    </div>
+                    <div class="output-group">
+                        <label>Result</label>
+                        <div id="vigenere-output" class="output-box"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Playfair Cipher Section -->
+            <section id="playfair" class="cipher-section">
+                <div class="info-card">
+                    <h2>Playfair Cipher</h2>
+                    <p>A manual symmetric encryption technique and was the first literal digram substitution cipher. The scheme encrypts pairs of letters (digrams), instead of single letters as in the simple substitution cipher.</p>
+                </div>
+                <div class="interactive-card">
+                    <h3>Try it out</h3>
+                    <div class="input-group">
+                        <label for="playfair-text">Text</label>
+                        <textarea id="playfair-text" placeholder="Enter text..."></textarea>
+                    </div>
+                    <div class="input-group">
+                        <label for="playfair-key">Keyword</label>
+                        <input type="text" id="playfair-key" placeholder="e.g. MONARCHY">
+                    </div>
+                    <div class="button-group">
+                        <button class="action-btn" onclick="processPlayfair(false)">Encrypt</button>
+                        <button class="action-btn outline" onclick="processPlayfair(true)">Decrypt</button>
+                    </div>
+                    <div class="output-group">
+                        <label>Result</label>
+                        <div id="playfair-output" class="output-box"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Rail Fence Cipher Section -->
+            <section id="railfence" class="cipher-section">
+                <div class="info-card">
+                    <h2>Rail Fence Cipher</h2>
+                    <p>A form of transposition cipher. It derives its name from the way in which it is encoded. In the rail fence cipher, the plain text is written downwards and diagonally on successive "rails" of an imaginary fence, then moving up when the bottom rail is reached.</p>
+                </div>
+                <div class="interactive-card">
+                    <h3>Try it out</h3>
+                    <div class="input-group">
+                        <label for="railfence-text">Text</label>
+                        <textarea id="railfence-text" placeholder="Enter text..."></textarea>
+                    </div>
+                    <div class="input-group">
+                        <label for="railfence-rails">Rails</label>
+                        <input type="number" id="railfence-rails" value="3" min="2" max="20">
+                    </div>
+                    <div class="button-group">
+                        <button class="action-btn" onclick="processRailFence(false)">Encrypt</button>
+                        <button class="action-btn outline" onclick="processRailFence(true)">Decrypt</button>
+                    </div>
+                    <div class="output-group">
+                        <label>Result</label>
+                        <div id="railfence-output" class="output-box"></div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        
+        <footer>
+            <p>A comprehensive repository of encryption models implemented in Python and visualized on the web.</p>
+            <a href="https://github.com/vermashaurya/Encryption-models" target="_blank" class="github-link">View on GitHub</a>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
