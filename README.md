@@ -1,6 +1,43 @@
-# cryptography
-A repository to check out and analyze various and progressive ways of data encryption for information security.
-This folder includes various methods to encrypt and decrypt data like the Ceasar Cipher, Playfair Cipher, Rail Fence Cipher, and Vigenere Cipher with a well-defined menu-driven code to provide the user a choice algorithm to conveniently operate around cryptographic processes. 
-Every encryption and its subsequent decryption is achieved using Python.
-Comments are provided for the user to traverse around the code easier to locate certain components of the code.
-Feel free to add to this folder, Happy Coding!
+# 🔐 Cryptography Models
+
+A comprehensive, product-ready repository containing various classical and modern encryption models implemented in Python, complete with a beautiful interactive Web UI for demonstration.
+
+![UI Preview](https://img.shields.io/badge/UI-Interactive-brightgreen)
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+## 🌟 Interactive Web UI
+
+Experience these ciphers visually! We've built a sleek, interactive web playground where you can encrypt and decrypt messages using classical ciphers directly in your browser. 
+
+**[🔗 Try the Web UI on GitHub Pages](#)** *(Replace this with your deployed GitHub pages link!)*
+
+---
+
+## 🐍 Python Implementations
+
+All python scripts have been refactored for readability and ease of use. Each script contains both **Encryption** and **Decryption** functionality.
+
+### Included Ciphers
+- `caesar_cipher.py` - A classic substitution cipher based on alphabet shifts.
+- `vigenere_cipher.py` - A polyalphabetic substitution cipher using a keyword.
+- `playfair_cipher.py` - A digram substitution cipher using a 5x5 key matrix.
+- `rail_fence_cipher.py` - A transposition cipher that reads in a zigzag pattern.
+- `chacha20_cipher.py` - A modern encryption example utilizing the `cryptography` library (Fernet).
+
+### Extras
+- `dictionary_attack.py` - Simulates a dictionary attack to break basic passwords using cosine similarity.
+- `spam_classifier.py` - A Machine Learning model (Random Forest) to classify spam vs. ham text.
+
+### How to use
+To run any of the models in your terminal, simply use:
+```bash
+python caesar_cipher.py
+```
+*(Replace `caesar_cipher.py` with your desired cipher script).*
+
+## 🤝 Contribution
+Feel free to fork this project, submit pull requests, or open an issue if you have suggestions. 
+
+## 📝 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

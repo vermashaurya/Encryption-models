@@ -1,0 +1,54 @@
+email_text,label
+"Hey there, I found an amazing deal for you!",spam
+"Dear customer, your account balance is low.",spam
+"Congratulations! You've won a free vacation.",spam
+"Hello, can we schedule a meeting tomorrow?",non-spam
+"Reminder: Your appointment is tomorrow.",non-spam
+"Please review the attached document.",non-spam
+"URGENT: Your package delivery is delayed.",spam
+"Get rich quick! Make money fast!",spam
+"Exclusive offer for our valued customers.",spam
+"Important announcement: Update your password.",non-spam
+"Thank you for your recent purchase.",non-spam
+"Claim your prize by clicking the link below.",spam
+"Invitation to our annual conference.",non-spam
+"Last chance! Limited stock available.",spam
+"Reminder: Pay your utility bills by the due date.",non-spam
+"Unlock the secrets of successful investing.",spam
+"Request for a meeting next week.",non-spam
+"Your request for information has been approved.",non-spam
+"Enlarge your... confidence with our product.",spam
+"Emergency alert: Take immediate action.",spam
+"Invitation to join our loyalty rewards program.",non-spam
+"Congratulations! You've won a gift voucher.",spam
+"Important update: Changes to our privacy policy.",non-spam
+"Final reminder: Complete your survey.",non-spam
+"Get a bigger... house with our mortgage options.",spam
+"Special discount for our valued subscribers.",non-spam
+"Verify your account to avoid suspension.",spam
+"Exclusive preview of our new collection.",non-spam
+"Your credit card payment is due.",non-spam
+"Limited time offer: Buy one, get one free!",spam
+"Reminder: RSVP for the upcoming event.",non-spam
+"Important notice: Your account has been locked.",spam
+"Claim your free trial now!",spam
+"Invitation to our charity gala.",non-spam
+"Your package has been shipped.",non-spam
+"Your car insurance renewal is due.",non-spam
+"Instant approval for a personal loan.",spam
+"Exclusive members-only sale.",non-spam
+"URGENT: Action required for your account.",spam
+"Update your software for enhanced security.",non-spam
+"Win a luxury vacation for two!",spam
+"Important: Verify your email address.",non-spam
+"Reminder: Parent-teacher meeting tomorrow.",non-spam
+"Boost your business with our marketing services.",spam
+"Special offer: 50% off on selected items.",non-spam
+"URGENT: Your account has been compromised.",spam
+"Claim your cashback rewards now!",spam
+"Invitation to participate in our research study.",non-spam
+"Last chance to save on your summer vacation.",spam
+"Your subscription is about to expire.",non-spam
+"Act now and get a free gift!",spam
+"Please update your contact information.",non-spam
+"Limited stock available. Buy now!",spam
