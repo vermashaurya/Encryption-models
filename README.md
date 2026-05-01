@@ -8,10 +8,8 @@ A comprehensive, product-ready repository containing various classical and moder
 
 Experience these ciphers visually! I've built a sleek, interactive web playground where you can encrypt and decrypt messages using classical ciphers directly in your browser. 
 
-**Live at** - https://vermashaurya.github.io/Encryption-models <br><br>
-[![UI Preview](https://img.shields.io/badge/UI-Interactive-brightgreen)](https://vermashaurya.github.io/Encryption-models/)
+**Live at** - https://vermashaurya.github.io/Encryption-models <br>
 
----
 
 ## Python Implementations
 
@@ -39,5 +37,9 @@ python caesar_cipher.py
 Feel free to fork this project, submit pull requests, or open an issue if you have suggestions. 
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. <br><br>
+This project is licensed under the [MIT License](LICENSE) <br>
+
+Copyright (c) 2026 
+<img src = name-geo.avif width="600" href="https://shaurya.online"><br>
+
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
