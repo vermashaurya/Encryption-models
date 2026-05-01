@@ -39,7 +39,7 @@ Feel free to fork this project, submit pull requests, or open an issue if you ha
 ## License
 This project is licensed under the [MIT License](LICENSE) <br>
 
-Copyright (c) 2026 
+Copyright (c) 2026 <br>
 <img src = name-geo.avif width="600" href="https://shaurya.online"><br>
 
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
